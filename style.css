@@ -1,0 +1,25 @@
+h1{
+    color: rgb(41, 74, 80);
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+p{
+    width: 25%;
+}
+body{
+    background-color: rgb(83, 82, 82);
+    display: flex;
+    justify-content: space-between;
+}
+.paid{
+    position: relative;
+    right: 10%;
+    top: 85px;
+}
+label{
+    padding-top: 15px;
+}

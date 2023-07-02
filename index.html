@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Bill Calculator</h1>
+
+        <form onsubmit="return false;">
+            <input type="text" name="bill" placeholder="Bill" />
+            <input type="date" name="due" />
+            <input type="number" name="amount" placeholder="Amount" />
+            <button onclick="mySubmit()">Add</button>
+        </form>
+        <div class="actlLst" id="main">
+        
+        </div>
+    </div>
+    <div class="paid">
+        <form onsubmit="return false;" id="form2">
+            <input type="number" name="paid" placeholder="Paid" />
+            <input type="date" name="next" />
+            <button onclick="myCalculate()">Calculate</button>
+        </form>
+
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
